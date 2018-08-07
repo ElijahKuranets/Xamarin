@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="393" translatesAutoresizingMaskIntoConstraints="NO" text="Night">
+                                <rect key="frame" x="16" y="639.5" width="41.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="394" translatesAutoresizingMaskIntoConstraints="NO" text="Size:">
+                                <rect key="frame" x="16" y="695.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="404" firstAttribute="width" constant="42"/>
+                                </constraints>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="395" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="141" y="634" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchNight_ValueChanged:" destination="BYZ-38-t0r" id="440" eventType="valueChanged"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="396" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="211" y="634" width="187" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.18431372549019609" green="1" blue="0.83529411764705885" alpha="1"/>
+                                <state key="normal" title="Start"/>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="397" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="141" y="690" width="259" height="31"/>
+                                <connections>
+                                    <action selector="SliderSize_ValueChanged:" destination="BYZ-38-t0r" id="441" eventType="valueChanged"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" lineBreakMode="middleTruncation" id="2041" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="376" y="64" width="22" height="22"/>
+                                <connections>
+                                    <action selector="ButtonAbout_TouchUpInside:" destination="BYZ-38-t0r" id="5748" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="399" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="393" secondAttribute="bottom" constant="76"/>
+                            <constraint id="400" firstItem="393" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16"/>
+                            <constraint id="402" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="394" secondAttribute="bottom" constant="20"/>
+                            <constraint id="403" firstItem="394" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16"/>
+                            <constraint id="406" firstItem="395" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="141"/>
+                            <constraint id="407" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="395" secondAttribute="bottom" constant="71"/>
+                            <constraint id="408" firstItem="396" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="409" firstItem="396" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="195"/>
+                            <constraint id="410" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="396" secondAttribute="bottom" constant="72"/>
+                            <constraint id="437" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="397" secondAttribute="trailing"/>
+                            <constraint id="438" firstItem="397" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="127"/>
+                            <constraint id="439" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="397" secondAttribute="bottom" constant="16"/>
+                            <constraint id="5751" firstItem="2041" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="5752" firstItem="2041" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="switchNight" destination="395" id="name-outlet-395"/>
+                        <outlet property="sliderSize" destination="397" id="name-outlet-397"/>
+                        <outlet property="buttonStart" destination="396" id="name-outlet-396"/>
+                        <outlet property="buttonAbout" destination="2041" id="name-outlet-2041"/>
+                    </connections>
+                    <navigationItem title="Title" id="1073" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="374" y="21"/>
+        </scene>
+        <scene sceneID="672">
+            <objects>
+                <viewController id="673" sceneMemberID="viewController" customClass="AboutViewController" storyboardIdentifier="AboutViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="670"/>
+                        <viewControllerLayoutGuide type="bottom" id="671"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="674">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="677" translatesAutoresizingMaskIntoConstraints="NO" text="About Fireworks">
+                                <rect key="frame" x="39" y="134" width="336" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="9765" firstAttribute="height" constant="45"/>
+                                </constraints>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="678" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="137" y="657" width="140" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.18431372549019609" green="1" blue="0.83529411764705885" alpha="1"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="ButtonClose_TouchUpInside:" destination="673" id="5756" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="679" firstItem="674" firstAttribute="trailingMargin" secondItem="678" secondAttribute="trailing" constant="121"/>
+                            <constraint id="680" firstItem="678" firstAttribute="leading" secondItem="674" secondAttribute="leadingMargin" constant="121"/>
+                            <constraint id="681" firstItem="674" firstAttribute="bottom" secondItem="678" secondAttribute="bottom" constant="49"/>
+                            <constraint id="9762" firstItem="674" firstAttribute="trailing" secondItem="677" secondAttribute="trailing" constant="39"/>
+                            <constraint id="9763" firstItem="677" firstAttribute="top" secondItem="674" secondAttribute="top" constant="134"/>
+                            <constraint id="9766" firstItem="677" firstAttribute="leading" secondItem="674" secondAttribute="leadingMargin" constant="23"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonClose" destination="678" id="name-outlet-678"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="675" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="985" y="21"/>
+        </scene>
+    </scenes>
+</document>

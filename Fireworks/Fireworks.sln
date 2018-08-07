@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fireworks", "Fireworks\Fireworks.csproj", "{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}.Release|iPhone.Build.0 = Release|iPhone
+		{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
