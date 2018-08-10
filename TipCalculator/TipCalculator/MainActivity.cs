@@ -8,13 +8,13 @@ using Android.Views;
 
 namespace TipCalculator
 {
-	[Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
-	public class MainActivity : AppCompatActivity
+	[Activity(Label = "TipCalculator", MainLauncher = true, Icon = "@mipmap/icon")]
+	public class MainActivity : Activity
 	{
 
-		protected override void OnCreate(Bundle bundle)
+		protected override void OnCreate(Bundle savedInstanceState)
 		{
-			base.OnCreate(bundle);
+			base.OnCreate(savedInstanceState);
 
 			SetContentView(Resource.Layout.Main);
 
