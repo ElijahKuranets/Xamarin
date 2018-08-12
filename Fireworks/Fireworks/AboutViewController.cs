@@ -11,10 +11,5 @@ namespace Fireworks
         {
             
         }
-
-        partial void ButtonClose_TouchUpInside(UIButton sender)
-        {
-            this.DismissViewController(true, null);
-        }
     }
 }

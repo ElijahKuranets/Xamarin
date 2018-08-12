@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{7F0303C9-9BD3-4F69-9AEF-ADCD9F5F778B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Fireworks/ViewController.designer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fireworks/LaunchScreen.storyboard">
     <Files>
       <File FileName="Fireworks/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="Fireworks/Main.storyboard" />
       <File FileName="Fireworks/SimpleParticleGen.cs" Line="16" Column="41" />
-      <File FileName="Fireworks/AboutViewController.cs" Line="9" Column="6" />
+      <File FileName="Fireworks/AboutViewController.cs" Line="13" Column="10" />
       <File FileName="Fireworks/Main.cs" Line="12" Column="1" />
       <File FileName="Fireworks/AboutViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="Fireworks/ViewController.cs" Line="11" Column="1" />
+      <File FileName="Fireworks/ViewController.cs" Line="9" Column="8" />
       <File FileName="Fireworks/ViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="Fireworks/Info.plist" />
+      <File FileName="Fireworks/Entitlements.plist" />
+      <File FileName="Fireworks/LaunchScreen.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -17,7 +20,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Fireworks PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.296E1A20-0055-4BA9-8BEE-78AC440CB132">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.Fireworks>
+  <MonoDevelop.Ide.ItemProperties.Fireworks PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.296E1A20-0055-4BA9-8BEE-78AC440CB132" automaticSigning="False" />
 </Properties>

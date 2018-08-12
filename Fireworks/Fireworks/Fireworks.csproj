@@ -85,6 +85,21 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Media.xcassets\Contents.json" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-60.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-20.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-167.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-1024.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

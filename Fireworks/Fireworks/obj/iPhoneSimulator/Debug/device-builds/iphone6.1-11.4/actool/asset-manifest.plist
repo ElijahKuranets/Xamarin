@@ -6,8 +6,26 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/user/Projects/Fireworks/Fireworks/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.4/actool/partial-info.plist</string>
+			<string>/Users/user/Xamarin/Fireworks/Fireworks/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.4/actool/bundle/AppIcon60x60@2x.png</string>
+			<string>/Users/user/Xamarin/Fireworks/Fireworks/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.4/actool/bundle/AppIcon76x76@2x~ipad.png</string>
+			<string>/Users/user/Xamarin/Fireworks/Fireworks/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.4/actool/bundle/Assets.car</string>
+			<string>/Users/user/Xamarin/Fireworks/Fireworks/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.4/actool/partial-info.plist</string>
 		</array>
 	</dict>
+	<key>com.apple.actool.document.notices</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][76x76][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/user/Xamarin/Fireworks/Fireworks/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>76x76@1x app icons only apply to iPad apps targeting releases of iOS prior to 10.0.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+	</array>
 </dict>
 </plist>
